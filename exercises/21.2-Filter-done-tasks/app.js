@@ -10,3 +10,8 @@ let tasks = [
 ];
 
 // Your code here
+let doneTasks = tasks.filter((value) => {
+  return value.done === true;
+  });
+
+console.log(doneTasks);
